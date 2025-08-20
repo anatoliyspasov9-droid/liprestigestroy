@@ -1,0 +1,44 @@
+.hero {
+  background: #F9FAFB;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0 0 24px 0;
+  line-height: 1.2;
+}
+
+.hero-title-accent {
+  color: #4F46E5;
+}
+
+.hero-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6B7280;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+  }
+  
+  .hero-description {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+}
