@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  color: #888;
+}
